@@ -5,9 +5,8 @@ package com.mycompany.app;
  */
 public class App
 {
-
-    private final String message = "Hello Devops";
-
+	
+    private final String message = "Hello Verizon";
     public App() {}
 
     public static void main(String[] args) {
