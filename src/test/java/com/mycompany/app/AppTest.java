@@ -34,9 +34,15 @@ public class AppTest
     {
         App.main(null);
         try {
+<<<<<<< HEAD
             assertEquals("Hello Verizon" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello Verizon\"");
+=======
+            assertEquals("Hello Devops" + System.getProperty("line.separator"), outContent.toString());
+        } catch (AssertionError e) {
+            fail("\"message\" is not \"Hello Devops\"");
+>>>>>>> 8e7fc6d2c4946f981a2fdd3f050956598124860f
         }
     }
 
